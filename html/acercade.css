@@ -1,0 +1,38 @@
+/* estilos generales pagina gato */
+body.acercade{
+    list-style: none;
+    padding: 0;
+    background: #089c88;
+    width:90%;
+    max-width: 1000px;
+    margin: auto;
+    
+
+
+
+}
+
+/* estilos letras menu  */
+body.acercade li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: block;
+
+}
+
+
+/*  Estilo inline-block permitira mostrar los elementos en linea y se comportaran como un bloque*/
+/*Estilo text aligncenter permitira que el texto dentro de cada elemento <Li> se alineara al centro */
+body.acercade li{
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+/* Estilos a aplicar cuando se coloca el cursor del mouse sobre el elemento */
+body.acercade li a:hover{
+    background: #380d7e ;
+
+}
